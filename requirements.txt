@@ -1,0 +1,10 @@
+azure-functions
+azure-functions-worker
+azure-storage-blob
+
+sqlalchemy
+psycopg2-binary
+
+azure-ai-documentintelligence
+
+openai
