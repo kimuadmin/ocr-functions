@@ -6,7 +6,8 @@
       "direction": "in",
       "name": "blob",
       "path": "upload-container/{uploadId}/{fileId}",
-      "connection": "BLOB_CONNECTION_STRING"
+      "connection": "BLOB_CONNECTION_STRING",
+      "source": "EventGrid"
     }
   ]
 }
