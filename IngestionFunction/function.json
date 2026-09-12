@@ -5,7 +5,7 @@
       "type": "blobTrigger",
       "direction": "in",
       "name": "blob",
-      "path": "upload-container/{uploadId}/{fileId}",
+      "path": "upload-container/{*blobPath}",
       "connection": "BLOB_CONNECTION_STRING",
       "source": "EventGrid"
     }
